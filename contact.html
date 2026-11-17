@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Saker Munshi-Contact</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4.4.1/dist/email.min.js"></script><script src="js/data.js"></script><script src="js/main.js"></script></head>
+<body data-page="contact">
+<header id="site-header"></header>
+<main>
+<div class="wrap page-title"><h1>Let&rsquo;s talk<br>about your work</h1><p>Send a message and I will reply by email.</p></div>
+<section class="contact">
+  <form id="contact-form" novalidate>
+    <div class="row">
+      <div class="field"><label for="name">Full name</label><input id="name" name="name" required autocomplete="name" placeholder="Write your name"></div>
+      <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" required autocomplete="email" placeholder="Write your email"></div>
+    </div>
+    <div class="field"><label for="phone">Contact number</label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="Write your phone number"></div>
+    <div class="field"><label for="message">Message</label><textarea id="message" name="message" required placeholder="Write your message"></textarea></div>
+    <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <div class="form-foot"><button class="btn" type="submit">Send message</button><p class="status" id="form-status" role="status" aria-live="polite" style="margin-inline:auto"></p></div>
+  </form>
+  
+</section>
+<section class="cta"><div class="wrap"><h2>Please do not hesitate to reach out<br>if you have any questions.</h2></div></section>
+</main>
+<footer id="site-footer"></footer>
+</body></html>
